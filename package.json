@@ -1,0 +1,17 @@
+{
+  "name": "typescript-course",
+  "version": "1.0.0",
+  "description": "API Desenvolvida Utilizando TS, Node, ES6, Postgres e Sequelize",
+  "main": "server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "API",
+    "TypeScript",
+    "Node",
+    "ES6"
+  ],
+  "author": "Thiago Henrique",
+  "license": "ISC"
+}
