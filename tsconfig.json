@@ -4,7 +4,7 @@
         "module": "commonjs",
         "outDir": "build",
         "typeRoots": [
-            "../node_modules/@types"
+            "./node_modules/@types"
         ],
         "types": [
             "node"
@@ -17,6 +17,6 @@
     "exclude": [
         "node_modules"
     ],
-    "buildOnSave": true,
-    "compileOnSave": true
+    "compileOnSave": true,
+    "buildOnSave": true
 }
