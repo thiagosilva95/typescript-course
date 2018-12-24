@@ -8,6 +8,7 @@ class Api {
 
     constructor() {
         this.express = express();
+        this.middleware();
     }
 
     middleware(): void {
