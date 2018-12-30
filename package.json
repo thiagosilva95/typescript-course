@@ -5,6 +5,7 @@
   "main": "server/server.ts",
   "scripts": {
     "start": "./node_modules/.bin/ts-node ./server/server.ts",
+    "unit-test":"NODE_ENV=test mocha --opts build/tests/unit/config/mocha.opts ./build/tests/unit/unit.test.js",
     "builded": "NODE_ENV=development node ./build/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
